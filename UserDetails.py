@@ -1,5 +1,7 @@
+#importing the libraries and function from from other file
 import requests
 
+#getting user detail such as username and userID
 def getUserDetail():
     user_name= raw_input('Please enter your UserName \n')
     request_url = 'https://api.instagram.com/v1/users/search?q=' + user_name + '&access_token=1837076894.6278dbd.697512baad2c400ead6b57fc206562b9'
@@ -18,4 +20,4 @@ def getUserDetail():
         print 'No Response from server'
 
 
-getUserDetail();
+#getUserDetail();

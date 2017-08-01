@@ -1,6 +1,8 @@
+#importing the libraries and function from from other file
 import requests
 import urllib
 
+#download the recent media  of owner
 def downloadPost():
     request_url = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=1837076894.6278dbd.697512baad2c400ead6b57fc206562b9'
     print 'DOWNLOADING MOST RECENT POST OF OWNER'

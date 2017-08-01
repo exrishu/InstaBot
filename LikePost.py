@@ -1,6 +1,8 @@
+#importing the libraries and function from from other file
 import requests
 from UserRecentMedia import get_user_post
 
+#liking the post of the user
 def like_post():
     media_id = get_user_post()
     request_url = 'https://api.instagram.com/v1/media/%s/likes' % (media_id)
@@ -12,6 +14,6 @@ def like_post():
     else:
         print 'Your like was unsuccessful. Try again!'
 
-like_post();
+#like_post();
 
 

@@ -1,5 +1,7 @@
+#importing the libraries
 import requests
 
+#Media Id of the recent post by owner
 def get_own_post():
     request_url = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=1837076894.6278dbd.697512baad2c400ead6b57fc206562b9'
     print ' MOST RECENT MEDIA PUBLISHED BY OWNER'

@@ -1,6 +1,8 @@
+#importing the libraries and function from from other file
 import requests
 from UserDetails import getUserDetail
 
+#getting recently post posted by the user
 def get_user_post():
   print ('Enter usename to get most recent media by user')
   user_id = getUserDetail()
@@ -21,4 +23,4 @@ def get_user_post():
       print "No response from server!"
   return None
 
-get_user_post();
+#get_user_post();

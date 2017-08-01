@@ -1,6 +1,8 @@
+#importing the libraries and function from from other file
 import requests
 from UserRecentMedia import get_user_post
 
+#commenting on the user post
 def comment_post():
         print ' Hi I am successfully executed'
         media_id = get_user_post()
@@ -13,4 +15,4 @@ def comment_post():
         else:
             print 'Try again!'
 
-comment_post();
+#comment_post();
